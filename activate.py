@@ -10,4 +10,4 @@ config = api.Configure(api_key,temp=0.8)
 
 while True:
     prompt = input("Prompt >>")
-    config.activate(prompt,'Youre chatting with a student',[['This is an example','this is ans']])
+    config.activate(prompt,'Youre chatting with a human',[['Hello bot','hi how can i help you!']])
